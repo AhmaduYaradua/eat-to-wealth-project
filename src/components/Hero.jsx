@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import { MoveRight } from "lucide-react";
 import WhoWeAre from "./WhoWeAre";
 import OurCommunity from "./OurCommunity";
+import Services from "./Services";
 
 function Hero() {
   return (
@@ -85,7 +86,7 @@ function Hero() {
       {/* Ebook section ends here */}
 
       {/* our services section */}
-
+      <Services />
       {/* our services section ends here */}
 
       {/* Our community section */}
