@@ -43,11 +43,11 @@ function Hero() {
 
       {/* Ebook section */}
       <div>
-        <section className="bg-[#f0fdf4] py-16 px-4">
+        <section className="bg-gray-100 py-16 px-4">
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
             <div className="flex justify-center">
               <img
-                src="/ebook-cover.png"
+                src="ebook2.png"
                 alt="EatToWealth eBook Cover"
                 className="w-[280px] h-auto rounded-lg shadow-lg"
               />
