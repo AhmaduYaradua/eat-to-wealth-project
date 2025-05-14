@@ -12,3 +12,10 @@ body {
 .secondary-text {
   font-family: var(--font-secondary), sans-serif;
 }
+.primary-text {
+  font-family: var(--font-secondary), sans-serif;
+}
+
+.ant-card-body {
+  padding: 0;
+}
