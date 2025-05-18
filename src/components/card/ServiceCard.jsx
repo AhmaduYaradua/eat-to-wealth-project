@@ -29,7 +29,7 @@ import React from "react";
 
 const ServiceCard = (props) => {
   return (
-    <div className="relative flex w-[384px] flex-col shadow">
+    <div className="relative flex md:w-[384px] flex-col shadow">
       <div>
         <img
           className="w-full h-[344px]"

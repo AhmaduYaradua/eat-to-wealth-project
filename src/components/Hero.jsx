@@ -8,21 +8,21 @@ function Hero() {
   return (
     <div>
       {/* Hero section */}
-      <section className="flex left-[1440px] w-screen md:w-[1440px] h-[428.94px] md:h-[776px] bg-[url('/hero.png')] bg-cover bg-center bg-no-repeat">
+      <section className="flex left-[1440px]  w-screen md:w-[1440px] h-[428.94px] md:h-[776px] bg-[url('/hero.png')] bg-cover bg-center bg-no-repeat">
         <Navbar />
-        <div className="bg-gradient-to-r pt-[80px] from-green-400 to-gray-0 w-1/2">
+        <div className="bg-gradient-to-r pt-[80px]  from-green-400 to-gray-0 w-1/2">
           <div className="flex flex-col gap-[30px] pt-[50px] md:pt-[170px] pl-[15px] md:pl-[120] w-[399px] md:w-[602px] h-[310px] md:h-[315px]">
             <div className="flex w-[399px] h-[310px] md:w-[602px] md:h-[315px] flex-col md:gap-[10px]">
-              <h1 className="font-bold w-[387px] md:w-[600px] text-white text-[32px] md:text-[48px] tracking-wider">
+              <h1 className="font-bold w-[387px] md:w-[600px] text-white text-[31px] md:text-[48px] tracking-wider">
                 Your Path to a <span className="text-green-700">Healtheir</span>{" "}
                 Living Starts Here
               </h1>
-              <p className="text-white w-[380px] md:w-[500px] text-[15px] tracking-widest">
+              <p className="text-white w-[380px] md:w-[500px] text-[14px] tracking-widest">
                 Get AI-powered meal plans,expert advice and community support
                 tailored just for you.
               </p>
-              <div className="flex md:w-[700px] flex-col md:flex-row gap-[29px] pt-[30px]">
-                <button className="w-full cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit border-[1px] text-white border-white rounded-[5px] px-[22px] items-center py-[8px]">
+              <div className="flex md:w-[700px]  flex-col md:flex-row gap-[29px] pt-[30px]">
+                <button className="w-[355px] cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit border-[1px] text-white border-white rounded-[5px] px-[22px] items-center py-[8px]">
                   Explore Services
                 </button>
                 <a
@@ -30,7 +30,7 @@ function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="w-full cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit bg-green-700 border-[1px] text-white border-green-700 rounded-[5px] px-[22px] items-center py-[8px]">
+                  <button className="w-[355px] cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit bg-green-700 border-[1px] text-white border-green-700 rounded-[5px] px-[22px] items-center py-[8px]">
                     Book Appointment
                   </button>
                 </a>
@@ -121,9 +121,9 @@ function Hero() {
               </h3>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row w-fit h-[1293.73px] md:h-[418px] pl-[32px] md:pl-[130px] pt-[74px] gap-[19.87px]">
+          <div className="flex flex-col md:flex-row w-fit h-[1293.73px] md:h-[418px] pl-[12px] md:pl-[130px] pt-[74px] gap-[19.87px]">
             {/* card 1 */}
-            <div className="h-[600px] md:h-[526px]  w-[366px] md:w-[384px] rounded-[8px] bg-white">
+            <div className="h-[600px] md:h-[526px] md:w-[384px] rounded-[8px] bg-white">
               <img
                 src="card1.png"
                 alt="img"
