@@ -4,7 +4,7 @@ import cardService from "../../constant/data";
 
 const Services = () => {
   return (
-    <div className="p-6 py-12 bg-[#F5F5F5]">
+    <div id="services" className="p-6 py-12 bg-[#F5F5F5]">
       <div className="flex flex-col gap-3 justify-center items-center">
         <h2 className="text-[#0D9344] text-2xl font-bold">Our Services</h2>
         <p className="text-center text-[16px] md:w-[75%] md:m-auto">

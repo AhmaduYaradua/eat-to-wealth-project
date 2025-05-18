@@ -3,18 +3,18 @@ import Link from "next/link";
 
 export default function OurCommunity() {
   return (
-    <section className="bg-white py-[60px] px-[20px]">
-      <div className="max-w-[1440px] mx-auto px-[50px]">
+    <section className="bg-white py-[60px] md:px-[60px]">
+      <div className="max-w-[1440px] mx-auto px-[20px]">
         <div className="flex flex-wrap items-start justify-between gap-[40px]">
           {/* Text Content */}
-          <div className="flex-1 min-w-[350px] pr-[40px]">
-            <h2 className="text-[2.5rem] font-semibold text-black mb-2">
+          <div className="flex-1 min-w-[400px]">
+            <h2 className="text-[32px] font-semibold text-black mb-2">
               Join Our Community
             </h2>
-            <p className="text-[1.25rem] font-semibold leading-[1.7] mb-[50px]">
+            <p className="text-[16px] font-semibold leading-[1.7] mb-[50px]">
               Connect with others to share, learn, and grow.
             </p>
-            <p className="text-[1.15rem] text-[#666] leading-[1.7] mb-[50px] max-w-[700px]">
+            <p className="text-[16px] text-[#666] leading-[1.7] mb-[50px] max-w-[700px]">
               Be part of a vibrant community where you can join nutrition
               workshops,
               <br />
@@ -41,7 +41,7 @@ export default function OurCommunity() {
               alt="Join Our Community"
               width={600}
               height={400}
-              className="w-full h-auto object-cover"
+              className="w-full h-auto rounded-[20px] border md:border-none border-amber-600 object-cover"
             />
           </div>
         </div>

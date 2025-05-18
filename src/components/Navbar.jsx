@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
+import DropdownArrow from "./hooks/DropdownArrow";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,9 +33,9 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link className="hover:text-amber-600" href="/services">
-            Service
-          </Link>
+          <h1 className="hover:text-amber-600" href="#services">
+            <DropdownArrow />
+          </h1>
         </li>
         <li>
           <Link className="hover:text-amber-600" href="/blog">

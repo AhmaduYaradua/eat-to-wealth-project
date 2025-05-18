@@ -25,9 +25,15 @@ function Hero() {
                 <button className="w-full cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit border-[1px] text-white border-white rounded-[5px] px-[22px] items-center py-[8px]">
                   Explore Services
                 </button>
-                <button className="w-full cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit bg-green-700 border-[1px] text-white border-green-700 rounded-[5px] px-[22px] items-center py-[8px]">
-                  Book Appointment
-                </button>
+                <a
+                  href="https://wa.me/message/7DXGUOWDEXIEE1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="w-full cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit bg-green-700 border-[1px] text-white border-green-700 rounded-[5px] px-[22px] items-center py-[8px]">
+                    Book Appointment
+                  </button>
+                </a>
               </div>
             </div>
           </div>
