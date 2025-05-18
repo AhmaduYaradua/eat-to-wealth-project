@@ -14,7 +14,7 @@ function Hero() {
           <div className="flex flex-col gap-[30px] pt-[50px] md:pt-[170px] pl-[15px] md:pl-[120] w-[399px] md:w-[602px] h-[310px] md:h-[315px]">
             <div className="flex w-[399px] h-[310px] md:w-[602px] md:h-[315px] flex-col md:gap-[10px]">
               <h1 className="font-bold w-[387px] md:w-[600px] text-white text-[31px] md:text-[48px] tracking-wider">
-                Your Path to a <span className="text-green-700">Healtheir</span>{" "}
+                Your Path to a <span className="text-green-700">Healthier</span>{" "}
                 Living Starts Here
               </h1>
               <p className="text-white w-[380px] md:w-[500px] text-[14px] tracking-widest">
@@ -133,9 +133,9 @@ function Hero() {
                   How to Boost Your Energy Naturally by drinking healthy juice
                 </h2>
                 <h3 className="font-normal text-[14.3px] md:text-[18px] leading-[23.84px] md:leading-[30px] tracking-[-0.32px] md:tracking-[-0.41px]">
-                  Learn simple nutrition tweaks to feel more vibrant daily cos
-                  it helps to aids digestion and supplies hhe nutrient needed
-                  for the body...
+                  Learn simple nutrition tweaks to feel more vibrant daily
+                  because it helps to aids digestion and supplies the nutrient
+                  needed for the body...
                 </h3>
               </div>
               <button className="flex items-center text-[12.71px] md:text-[16px] gap-[8.74px] md:gap-[11px] p-[7.95px] md:p-[10px] mt-[30px] text-amber-600 rounded-[6.36px] md:rounded-[8px]">
