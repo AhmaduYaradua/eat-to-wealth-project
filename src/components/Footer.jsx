@@ -39,13 +39,13 @@ function Footer() {
               </Link>
             </li>
             <li className="border rounded-full p-1 border-green-600">
-              <Link
-                href={
-                  "/https://www.instagram.com/eating2wealth?igsh=MWk3MTNjYnNobXAzeQ=="
-                }
+              <a
+                href="https://www.instagram.com/eating2wealth?igsh=MWk3MTNjYnNobXAzeQ=="
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Instagram />
-              </Link>
+              </a>
             </li>
             <li className="border rounded-full p-1 border-green-600">
               <Link href={"/"}>

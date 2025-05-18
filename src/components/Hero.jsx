@@ -41,12 +41,6 @@ function Hero() {
       </section>
       {/* Hero section ends here */}
 
-      {/* Who we are section */}
-      <div>
-        <WhoWeAre />
-      </div>
-      {/* Who we are section ends here */}
-
       {/* Ebook section */}
       <div>
         <section className="bg-gray-100 py-16 px-4">
@@ -90,6 +84,11 @@ function Hero() {
         </section>
       </div>
       {/* Ebook section ends here */}
+      {/* Who we are section */}
+      <div>
+        <WhoWeAre />
+      </div>
+      {/* Who we are section ends here */}
 
       {/* our services section */}
       <Services />
