@@ -69,10 +69,7 @@ const items = [
 const DropdownArrow = () => (
   <Dropdown menu={{ items }}>
     <a onClick={(e) => e.preventDefault()}>
-      <Space>
-        Service
-        <DownOutlined />
-      </Space>
+      <Space>Service</Space>
     </a>
   </Dropdown>
 );

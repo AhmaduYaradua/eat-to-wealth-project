@@ -4,7 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export default function WhoWeAre() {
   return (
-    <section className="bg-white py-[50px]">
+    <section className="bg-white">
       <div className="max-w-[1200px] mx-auto px-[10px]">
         <div className="flex flex-wrap items-center justify-between gap-[40px]">
           {/* Text Section */}
@@ -26,16 +26,37 @@ export default function WhoWeAre() {
 
             <ul className="list-none mt-[30px] mb-[30px] space-y-3">
               <li className="flex items-center text-[1.15rem] text-[#333] leading-[1.5]">
-                <FaCheckCircle className="text-[#2e8b57] mr-2 text-[1.2rem]" />
-                Certified nutritionists and health coaches
+                <span>
+                  <FaCheckCircle
+                    size={15}
+                    className="text-[#2e8b57] mr-2 text-[1.2rem]"
+                  />
+                </span>
+                <span className="flex-1">
+                  Certified nutritionists and health coaches
+                </span>
               </li>
               <li className="flex items-center text-[1.15rem] text-[#333] leading-[1.5]">
-                <FaCheckCircle className="text-[#2e8b57] mr-2 text-[1.2rem]" />
-                Join a supportive network where you can share your journey
+                <span>
+                  <FaCheckCircle
+                    size={15}
+                    className="text-[#2e8b57] mr-2 text-[1.2rem]"
+                  />
+                </span>
+                <span className="flex-1">
+                  Join a supportive network where you can share your journey
+                </span>
               </li>
               <li className="flex items-center text-[1.15rem] text-[#333] leading-[1.5]">
-                <FaCheckCircle className="text-[#2e8b57] mr-2 text-[1.2rem]" />
-                Tailored programs designed to fit your unique lifestyle
+                <span>
+                  <FaCheckCircle
+                    size={15}
+                    className="text-[#2e8b57] mr-2 text-[1.2rem]"
+                  />
+                </span>
+                <span className="flex-1">
+                  Tailored programs designed to fit your unique lifestyle
+                </span>
               </li>
             </ul>
 
