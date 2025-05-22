@@ -15,9 +15,9 @@ const Services = () => {
           wellness journey.
         </p>
       </div>
-      <div className="flex flex-wrap gap-5 items-center justify-center md:w-[80%] md:m-auto md:p-12">
+      <div className="flex flex-wrap gap-5 items-center justify-center md:px-16">
         {cardService.map((service, index) => (
-          <div className="flex md:w-[384px] md:h-[344px] justify-center">
+          <div className="flex md:w-[484px] md:h-[344px] justify-center">
             <ServiceCard
               key={index}
               name={service.name}

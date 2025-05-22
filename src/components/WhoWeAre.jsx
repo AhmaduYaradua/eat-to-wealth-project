@@ -5,10 +5,10 @@ import { FaCheckCircle } from "react-icons/fa";
 export default function WhoWeAre() {
   return (
     <section className="bg-white">
-      <div className="max-w-[1200px] mx-auto px-[10px]">
-        <div className="flex flex-wrap items-center justify-between gap-[40px]">
+      <div className="w-[90%] py-6 pb-9 mx-auto px-[10px]">
+        <div className="flex flex-col md:flex-row flex-wrap items-center justify-between gap-[40px]">
           {/* Text Section */}
-          <div className="flex-1 min-w-[350px]">
+          <div className="flex-1">
             <h2 className="text-[2.5rem] text-[#333] mb-[20px] font-semibold">
               Who We Are
             </h2>
@@ -69,11 +69,11 @@ export default function WhoWeAre() {
           </div>
 
           {/* Image Section */}
-          <div className="flex-1 min-w-[350px]">
+          <div className="flex-1 ">
             <img
               src="whoweare.png"
               alt="EatToWealth Team"
-              className="w-[401px] h-[424px] md:w-[568.5px] md:h-[518px] max-h-[500px] object-cover rounded-[8px] shadow-md"
+              className="  object-cover rounded-[8px] shadow-md"
             />
           </div>
         </div>

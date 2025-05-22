@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function OurCommunity() {
   return (
     <section className="bg-white px-[10px] py-[30px] md:px-[60px]">
-      <div className=" md:w-[80%] mx-auto">
-        <div className="flex flex-wrap items-start justify-between gap-[40px]">
+      <div className=" md:w-[95%] mx-auto">
+        <div className="flex flex-col md:flex-row flex-wrap items-start justify-between gap-[40px]">
           {/* Text Content */}
           <div className="flex-1">
             <h2 className="text-[32px] font-bold text-black mb-2">
@@ -35,7 +35,7 @@ export default function OurCommunity() {
           </div>
 
           {/* Image */}
-          <div className="flex-1 min-w-[300px]">
+          <div className="flex-1">
             <img
               src="ourcommunity.png"
               alt="Join Our Community"

@@ -12,9 +12,9 @@ function Hero() {
       <Navbar />
       {/* Hero section */}
       <section className="w-screen h-[428.94px] md:h-[776px] bg-[url('/hero.png')] bg-cover bg-center bg-no-repeat">
-        <div className="bg-gradient-to-r pt-[80px]  from-green-400 to-gray-0 w-1/2 h-screen">
+        <div className="bg-gradient-to-r pt-[80px]  from-green-700 to-gray-0 w-1/2 h-screen">
           <div className="flex flex-col gap-[30px] pt-[50px] md:pt-[170px] pl-[15px] md:pl-[120] w-[399px] md:w-[602px] h-[310px] md:h-[315px]">
-            <div className="flex space-y-4 h-[310px] md:w-[602px] md:h-[315px] flex-col md:gap-[10px]">
+            <div className="flex  space-y-4 h-[310px] md:w-[602px] md:h-[315px] flex-col md:gap-[10px]">
               <div>
                 <h1 className="font-black w-[287px] md:w-[650px] text-white text-[27px] md:text-[48px] tracking-wider">
                   Your Path to a{" "}
@@ -50,12 +50,12 @@ function Hero() {
       {/* Ebook section */}
       <div>
         <section className="bg-gray-100 py-16 px-[10px]">
-          <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-            <div className="flex justify-center">
+          <div className="max-w-[90%] mx-auto grid md:grid-cols-2 gap-10 items-center">
+            <div className=" flex justify-center">
               <img
                 src="ebook2.png"
                 alt="EatToWealth eBook Cover"
-                className="w-[280px] h-auto rounded-lg shadow-lg"
+                className=" h-auto rounded-lg shadow-lg"
               />
             </div>
 
@@ -106,7 +106,7 @@ function Hero() {
 
       {/* Our blogs section */}
       <section className="bg-gray-100   ">
-        <div className="md:w-[80%] md:m-auto flex flex-col">
+        <div className=" md:m-auto flex flex-col">
           <div className="flex flex-col py-5">
             <div className="flex flex-col gap-[15px] pt-[32px] px-[10px] md:pl-[53px] text-center items-center">
               <h2 className="font-bold text-[32px] md:text-4xl leading-[30px] ">
@@ -129,13 +129,13 @@ function Hero() {
             </div>
           </div>
           <div>
-            <div className="flex  flex-col md:flex-row p-3 md:pl-[130px] pt-[30px] gap-[19.87px]">
+            <div className="flex flex-col md:w-[90%] md:mx-auto md:flex-row p-3  pt-[30px] gap-6">
               {/* card 1 */}
-              <div className=" shadow md:w-[384px] rounded-[8px] bg-white">
+              <div className=" shadow md:w-[584px] rounded-[8px] bg-white">
                 <img
                   src="card1.png"
                   alt="img"
-                  className="md:w-[384px] md:h-[212px] w-full h-[168.47px] rounded-[8px] pb-[10px] object-cover"
+                  className=" w-full  max-h-[300px] rounded-[8px] pb-[10px] object-cover"
                 />
                 <div className="md:p-2">
                   <div className="flex flex-col px-[10px] pt-[20px] gap-[20px] w-[348px] h-[200px]">
@@ -158,11 +158,11 @@ function Hero() {
                 </div>
               </div>
               {/* card 2 */}
-              <div className=" shadow md:w-[384px] rounded-[8px] bg-white">
+              <div className=" shadow md:w-[584px] rounded-[8px] bg-white">
                 <img
                   src="card2.png"
                   alt="img"
-                  className="md:w-[384px] md:h-[212px] w-full h-[168.47px] pb-[10px] rounded-[8px] object-cover"
+                  className=" w-full  max-h-[300px] pb-[10px] rounded-[8px] object-cover"
                 />
                 <div className="md:pl-2">
                   <div className="flex flex-col px-[10px] pt-[20px] gap-[20px] w-[348px] h-[200px]">
@@ -183,11 +183,11 @@ function Hero() {
                 </div>
               </div>
               {/* card 3 */}
-              <div className=" shadow md:w-[384px] rounded-[8px] bg-white">
+              <div className=" shadow md:w-[584px] rounded-[8px] bg-white">
                 <img
                   src="card3.png"
                   alt="img"
-                  className="md:w-[384px] md:h-[212px] w-full h-[168.47px] pb-[10px] rounded-[8px] object-cover"
+                  className=" w-full  max-h-[300px] pb-[10px] rounded-[8px] object-cover"
                 />
                 <div className="md:p-2">
                   <div className="flex flex-col px-[10px] pt-[20px] gap-[20px] w-[348px] h-[200px]">

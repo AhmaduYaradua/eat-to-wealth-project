@@ -3,7 +3,7 @@ import React from "react";
 
 const ServiceCard = (props) => {
   return (
-    <div className="relative md:w-[384px] md:h-[344px] shadow overflow-clip">
+    <div className="relative shadow overflow-clip">
       <div>
         <img
           className="w-fit h-fit "
