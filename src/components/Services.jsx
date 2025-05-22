@@ -4,10 +4,10 @@ import cardService from "../../constant/data";
 
 const Services = () => {
   return (
-    <div id="services" className="p-6 py-12 bg-[#F5F5F5]">
-      <div className="flex flex-col gap-3 justify-center items-center">
-        <h2 className="text-[#0D9344] text-2xl font-bold">Our Services</h2>
-        <p className="text-center text-[16px] md:w-[75%] md:m-auto">
+    <div id="services" className="p-[10px] py-12 bg-[#F5F5F5]">
+      <div className="flex flex-col gap-3 justify-center items-center mb-3">
+        <h2 className=" text-3xl font-bold">Our Services</h2>
+        <p className="text-center text-[16px] md:w-[75%] leading-6 md:m-auto mb-3">
           At Eattowealth, we provide a holistic approach to nutrition through a
           variety of services designed to meet your individual needs. Whether
           you're looking for personalized meal plans, expert coaching, or
@@ -15,14 +15,16 @@ const Services = () => {
           wellness journey.
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-8 mt-10 lg:px-24 justify-center items-center">
+      <div className="flex flex-wrap gap-5 items-center justify-center md:w-[80%] md:m-auto md:p-12">
         {cardService.map((service, index) => (
-          <ServiceCard
-            key={index}
-            name={service.name}
-            bgColor={service.color}
-            image={service.image}
-          />
+          <div className="flex md:w-[384px] md:h-[344px] justify-center">
+            <ServiceCard
+              key={index}
+              name={service.name}
+              bgColor={service.color}
+              image={service.image}
+            />
+          </div>
         ))}
       </div>
     </div>

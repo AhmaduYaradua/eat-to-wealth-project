@@ -21,7 +21,7 @@ function Navbar() {
         {menuOpen ? <FiX /> : <FiMenu />}
       </div>
 
-      <ul className="hidden md:flex gap-[39px] font-medium text-green-600">
+      <ul className="hidden md:flex items-center  gap-[39px] font-medium text-green-600">
         <li>
           <Link className="hover:text-amber-600" href="/">
             Home
@@ -53,10 +53,10 @@ function Navbar() {
           </Link>
         </li>
         <li className="flex gap-4 items-center">
-          <button className="border text-green-600 border-green-600 px-4 py-2 rounded hover:bg-amber-600 hover:text-white hover:border-amber-600">
+          <button className="border text-green-600 border-green-600 px-6 py-2 rounded-[10px] hover:bg-amber-600 hover:text-white hover:border-amber-600">
             SignUp
           </button>
-          <button className="bg-amber-600 text-white px-4 py-2 rounded hover:bg-green-600">
+          <button className="bg-amber-600 text-white rounded-[10px] px-6 py-2 hover:bg-green-600">
             LogIn
           </button>
         </li>

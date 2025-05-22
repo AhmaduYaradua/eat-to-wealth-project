@@ -3,15 +3,15 @@ import Link from "next/link";
 
 export default function OurCommunity() {
   return (
-    <section className="bg-white py-[60px] md:px-[60px]">
-      <div className="max-w-[1440px] mx-auto px-[20px]">
+    <section className="bg-white px-[10px] py-[30px] md:px-[60px]">
+      <div className=" md:w-[80%] mx-auto">
         <div className="flex flex-wrap items-start justify-between gap-[40px]">
           {/* Text Content */}
-          <div className="flex-1 min-w-[400px]">
-            <h2 className="text-[32px] font-semibold text-black mb-2">
+          <div className="flex-1">
+            <h2 className="text-[32px] font-bold text-black mb-2">
               Join Our Community
             </h2>
-            <p className="text-[16px] font-semibold leading-[1.7] mb-[50px]">
+            <p className="text-[16px] font-medium leading-[1.7] mb-[50px]">
               Connect with others to share, learn, and grow.
             </p>
             <p className="text-[16px] text-[#666] leading-[1.7] mb-[50px] max-w-[700px]">

@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${poppins.variable} ${OpenSans.variable} antialiased`}>
         {children}
-        <Footer />
       </body>
     </html>
   );
