@@ -15,11 +15,13 @@ const Services = () => {
           wellness journey.
         </p>
       </div>
-      <div className="flex flex-wrap gap-5 items-center justify-center md:px-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 items-center justify-center md:px-16">
         {cardService.map((service, index) => (
-          <div className="flex md:w-[484px] md:h-[344px] justify-center">
+          <div
+            key={index}
+            className="flex md:w-[400px] md:h-[344px] justify-center"
+          >
             <ServiceCard
-              key={index}
               name={service.name}
               bgColor={service.color}
               image={service.image}

@@ -27,7 +27,7 @@ function Hero() {
               </div>
               <div className="w-full md:space-x-4 flex space-y-3 md:w-[700px] flex-col md:flex-row ">
                 <Link href="#">
-                  <button className="w-full cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit border-[1px] text-white border-white rounded-[15px] px-[35px] items-center py-[12px]">
+                  <button className="w-[365px] cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit border-[1px] text-white border-white rounded-[15px] px-[35px] items-center py-[12px]">
                     Explore Services
                   </button>
                 </Link>
@@ -36,7 +36,7 @@ function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="w-full cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit bg-green-700 border-[1px] text-white border-[#12B347] rounded-[15px] px-[35px] items-center py-[12px]">
+                  <button className="w-[365px] cursor-pointer hover:border-amber-600 hover:bg-amber-600 md:w-fit bg-green-700 border-[1px] text-white border-[#12B347] rounded-[15px] px-[35px] items-center py-[12px]">
                     Book Appointment
                   </button>
                 </Link>
