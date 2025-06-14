@@ -2,7 +2,7 @@ const cardService = [
   {
     name: "Personalized Nutrition Plans",
     color: "#0D9344",
-    image: "/images/image2.png",
+    image: "/images/image3.png",
   },
   {
     name: "Consultation Services",
